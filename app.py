@@ -3,6 +3,7 @@ import nltk
 from pyresparser import ResumeParser
 import os
 
+nltk.data.path.append("/root/nltk_data")
 nltk.download("stopwords")
 
 app = Flask(__name__)
