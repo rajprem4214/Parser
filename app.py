@@ -3,7 +3,6 @@ import nltk
 from pyresparser import ResumeParser
 import os
 
-nltk.download("stopwords")
 
 app = Flask(__name__)
 

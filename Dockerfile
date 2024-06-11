@@ -7,6 +7,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN python -m nltk.downloader -d /usr/local/share/nltk_data -r nltk.txt
+RUN python download_nltk_data.py
 
 CMD ["python", "app.py"]
